@@ -17,6 +17,11 @@
         "value": "",
         "required": true
       },
+        "OWNER_ID": {
+        "description": "A Bot's token from Botfather",
+        "value": "",
+        "required": true
+      },
       "MONGO_DB_URI": {
         "description": "Get a mongodb url from https://cloud.mongodb.com.",
         "value": "",
