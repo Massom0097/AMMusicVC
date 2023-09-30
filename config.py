@@ -13,20 +13,20 @@ API_HASH = getenv("API_HASH","b463bedd791aa733ae2297e6520302fe")
 BOT_TOKEN = getenv("BOT_TOKEN")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", "")
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID","-1001840241140"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "ꜱʜɪᴢᴜᴋᴀ 乂 ᴍᴜꜱɪᴄ")
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID","-1001903923793"))
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Massom 乂 ᴍᴜꜱɪᴄ")
 
-OWNER_ID = list(map(int, getenv("OWNER_ID", "6204761408").split()))
+OWNER_ID = list(map(int, getenv("OWNER_ID", "6584750414").split()))
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/AbhiModszYT/AMMusicVC")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Massom0097/AMMusicVC")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/AmBotYT")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/AM_YTSupport")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/about_meeBachaa")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/innocent_world_chat")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
@@ -48,9 +48,9 @@ TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "3"))
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "2a230af10e0a40638dc77c1febb47170")
 SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "7f92897a59464ddbbf00f06cd6bda7fc")
 
-VIDEO_STREAM_LIMIT = int(getenv("VIDEO_STREAM_LIMIT", "5"))
-SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "50"))
-PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", "50"))
+VIDEO_STREAM_LIMIT = int(getenv("VIDEO_STREAM_LIMIT", "99999999999888"))
+SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "5888888888880"))
+PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", "5888888888880"))
 
 CLEANMODE_DELETE_MINS = int(getenv("CLEANMODE_MINS", "12"))
 
@@ -76,11 +76,11 @@ clean = {}
 autoclean = []
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/ea11748b5ecd674583a99.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/6cd2df1b187ebdd08ddd7.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://graph.org/file/ea11748b5ecd674583a99.jpg",
+    "https://telegra.ph/file/31f89a9e21a01441f7f11.jpg",
 )
 
 PLAYLIST_IMG_URL = "https://graph.org/file/ea11748b5ecd674583a99.jpg"
@@ -130,9 +130,9 @@ if UPSTREAM_REPO:
 if PING_IMG_URL:
     if PING_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", PING_IMG_URL):
-            PING_IMG_URL = "https://telegra.ph/file/56d1760224589ee370186.jpg"
+            PING_IMG_URL = "https://telegra.ph/file/31f89a9e21a01441f7f11.jpg"
 
 if START_IMG_URL:
     if START_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", START_IMG_URL):
-            START_IMG_URL = "https://te.legra.ph/file/56d1760224589ee370186.jpg"
+            START_IMG_URL = "https://telegra.ph/file/6cd2df1b187ebdd08ddd7.jpg"
